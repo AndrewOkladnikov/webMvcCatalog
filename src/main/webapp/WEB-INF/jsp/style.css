@@ -1,0 +1,74 @@
+body {background-color: powderblue;}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  overflow: auto;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.catBtn,td .catBtn {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    }
+.form-container {
+      max-width: 300px;
+      padding: 1px;
+      background-color: white;
+}
+.select{
+background-color:#336600 ;
+color:#ffffff
+}
+.del-but{
+    background-color:#ff6600 ;
+    color:#ffffff;
+    border: 0px solid #f1f1f1;
+}
+.edit-but, .add-product{
+     background-color:#66ffcc ;
+     color:#0;
+     border: 0px solid #f1f1f1;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: ;
+  padding: 1px;
+  margin: 1px 0 1px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.sidebar {
+	background: #dedede;
+	float: right;
+	margin-right: 0px;
+	max-width: 800px;
+	min-width: 150px;
+}
+/* Когда входы получают фокус, сделайте что-нибудь */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Установите стиль для кнопки отправить/войти */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Добавить красный цвет фона для кнопки "Отмена" */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Добавить некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
